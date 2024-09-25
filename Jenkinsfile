@@ -5,7 +5,7 @@ pipeline {
     BRANCH_NAME = 'main'
     GIT_URL = 'https://github.com/Ajizzle404/aws-cicd.git'
     IMAGE_TAG = 'Ajizzle404/awscicd'
-    IMAGE_VERSION = ${BUILD_NUMBER}
+    IMAGE_VERSION = "${BUILD_NUMBER}"
   }
 
 stages {
