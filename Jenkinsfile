@@ -17,7 +17,7 @@ stages {
     stage('docker build'){
       steps {
         sh 'docker build -t "${IMAGE_TAG}:${IMAGE_VERSION}" .'
-        sh 'docker images'
+        sh 'docker image'
       }
     }
   }
